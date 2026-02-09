@@ -2,10 +2,13 @@
   "name": "clicker",
   "private": true,
   "version": "0.0.0",
+  "homepage" : "https://github.com/olebt1025",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"
   },
